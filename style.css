@@ -16,12 +16,11 @@ span {
     color: grey;
 }
 
-
 section,
 header {
     padding: 10px 60px 20px 60px;
     background-color: white;
-    width: 900px;
+    width: 960px;
     margin: 0 auto;
 }
 
@@ -64,6 +63,11 @@ p {
 .hobbies {
     list-style: none;
     padding: 0;
-    width: 5px;
-    height: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hobbies li {
+    width: 50%;
+    height: 50%;
 }
