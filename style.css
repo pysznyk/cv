@@ -63,7 +63,7 @@ li {
 
 p {
     text-align: justify;
-    line-height: 1;
+    line-height: 1.5;
 }
 
 .profile-picture {
@@ -76,13 +76,13 @@ p {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: -35px;
 }
 
 .hobbies li {
     width: 50%;
     display: flex;
     align-items: flex-start;
-    margin-bottom: 40px;
 }
 .hobbies div {
     margin-left: 20px;
@@ -96,12 +96,12 @@ p {
     border: 2px solid cornflowerblue;
     color: black;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 2px 14px;
     display: inline-block;
     margin-top: 20px;
     border-radius: 20px;
     transition: background-color 0.5s, color 0.5s;
-    box-shadow: 0 0 20px grey;
+    box-shadow: 0 0 10px grey;
 }
 
 .cv-download-link:hover {
@@ -117,5 +117,14 @@ p {
 
 .cv-download-link:active {
     text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+a:visited {
+    color: cornflowerblue;
 }
 
